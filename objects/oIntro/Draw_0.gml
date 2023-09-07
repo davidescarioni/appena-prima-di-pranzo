@@ -1,0 +1,12 @@
+draw_set_alpha(alpha)
+draw_sprite(sTitle, -1, room_width/2, room_height/2 + 20)
+draw_sprite(sGmiSummerJam, -1, room_width/2 + 20, 80)
+draw_set_halign(fa_center)
+draw_set_valign(fa_middle)
+draw_set_font(fnt_default)
+
+draw_set_color(c_black)
+draw_text(room_width/2 + 2, room_height - 102, subTitle)
+draw_set_color(c_white)
+draw_text(room_width/2, room_height - 104, subTitle)
+draw_set_alpha(1)
